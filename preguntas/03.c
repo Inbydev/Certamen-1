@@ -10,7 +10,7 @@ int main() {
     return 0;
 }
 
-void fun(double s1, double *s2) {
+void fun( double s1, double *s2) {
     double x = s1 - *s2;
     *s2 = s1 + *s2;
     s1 = x;

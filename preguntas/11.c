@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 int misterio(int, int);
-
 int main() {
     int a = 2, b = 4;
     printf("%d\n", misterio(a, b));
